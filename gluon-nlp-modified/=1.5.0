@@ -1,0 +1,8 @@
+Requirement already up-to-date: mxnet in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (1.5.1.post0)
+Requirement already satisfied, skipping upgrade: requests<3,>=2.20.0 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (from mxnet) (2.22.0)
+Requirement already satisfied, skipping upgrade: graphviz<0.9.0,>=0.8.1 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (from mxnet) (0.8.4)
+Requirement already satisfied, skipping upgrade: numpy<2.0.0,>1.16.0 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages/numpy-1.17.2-py3.6-linux-x86_64.egg (from mxnet) (1.17.2)
+Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (from requests<3,>=2.20.0->mxnet) (3.0.4)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (from requests<3,>=2.20.0->mxnet) (2019.9.11)
+Requirement already satisfied, skipping upgrade: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (from requests<3,>=2.20.0->mxnet) (1.25.6)
+Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in /home/yguo262/gluon-nlp/.gluon_env/lib/python3.6/site-packages (from requests<3,>=2.20.0->mxnet) (2.8)
