@@ -1,0 +1,13 @@
+digraph {
+	fontsize=10 label=dot_3layer_combined_diff_enc_layer0 labelloc=t
+	angry -> disgusted [label=2.43 arrowhead=vee color=black]
+	angry -> furious [label=2.16 arrowhead=vee color=black]
+	apprehensive -> afraid [label=3.26 arrowhead=vee color=black]
+	devastated -> angry [label=2.07 arrowhead=vee color=black]
+	devastated -> sad [label=5.14 arrowhead=vee color=black]
+	disgusted -> annoyed [label=2.07 arrowhead=vee color=black]
+	excited -> anticipating [label=2.02 arrowhead=vee color=black]
+	excited -> joyful [label=2.16 arrowhead=vee color=black]
+	furious -> annoyed [label=3.16 arrowhead=vee color=black]
+	terrified -> apprehensive [label=4.37 arrowhead=vee color=black]
+}

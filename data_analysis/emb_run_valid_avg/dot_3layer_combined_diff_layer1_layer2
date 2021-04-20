@@ -1,0 +1,18 @@
+digraph {
+	fontsize=10 label=dot_3layer_combined_diff_layer1_layer2 labelloc=t
+	afraid -> apprehensive [label=3.04 arrowhead=vee color=black]
+	afraid -> terrified [label=4.29 arrowhead=vee color=black]
+	angry -> furious [label=3.46 arrowhead=vee color=black]
+	anticipating -> hopeful [label=2.06 arrowhead=vee color=black]
+	apprehensive -> anxious [label=3.33 arrowhead=vee color=black]
+	apprehensive -> terrified [label=3.37 arrowhead=vee color=black]
+	ashamed -> disappointed [label=2.31 arrowhead=vee color=black]
+	ashamed -> embarrassed [label=4.42 arrowhead=vee color=black]
+	ashamed -> guilty [label=5.65 arrowhead=vee color=black]
+	confident -> proud [label=2.20 arrowhead=vee color=black]
+	faithful -> trusting [label=2.97 arrowhead=vee color=black]
+	grateful -> surprised [label=3.34 arrowhead=vee color=black]
+	hopeful -> confident [label=2.11 arrowhead=vee color=black]
+	sad -> lonely [label=2.36 arrowhead=vee color=black]
+	sentimental -> nostalgic [label=3.25 arrowhead=vee color=black]
+}
