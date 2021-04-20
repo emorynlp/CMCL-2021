@@ -1,3 +1,5 @@
+This is the code for our CMCL 2021 paper on "Enhancing Cognitive Models of Emotions with Representation Learning". 
+
 # Requirements
 `virtualenv` is recommended to install the dependencies.
 ```sh
@@ -9,9 +11,10 @@ $ pip install -r requirements.txt
 Because we use a local version of gluon-nlp, we need to set `PYTHONPATH` using `export PYTHONPATH=~/dmlc/gluon-nlp-modified/src/`.
 Note that you need to change the path into your own path.
 
-The scripts below are in the directory `scripts`.
 
 # Emotion Classification
+* The scripts mentioned in the section are in the directory `scripts`. *
+
 ## Model Training
 The model is trained with three different initialization. See `train.sh` for more tails.
 ```sh
@@ -63,7 +66,13 @@ $ python eval.py data/test.bert.csv output_run2/EDQA_none.tsv
 $ python eval.py data/test.bert.csv output_run3/EDQA_none.tsv
 ```
 
-# Analysis
+# Analysis Preparation
+This section describes how to generate the embeddings and experiment on these embeddings.
+
+* The scripts mentioned in the section are in the directory `scripts`. *
+
+For the analysis part, see `README.md` in the directory `data_analysis`.
+
 ## Extract Embeddings
 For layer-wise analysis, we need the embeddings of each hidden layer of documents on the trianning set and the dev set.
 First check that the parameter `--output_emb` in `test.sh` is set as `True`.
@@ -90,6 +99,7 @@ sh batch_linear_cls.sh emb_run1
 ```
 The predictions of the dev set are stored in seperated files in the directory `emb_run1_valid` as
 `cls_res.32.emb.tsv`, `cls_res.64.emb.tsv` and `cls_res.128.emb.tsv`.
+These prediction results will be used for the layer-wise analysis.
 
 
 ## Generate Emotion Vectors
