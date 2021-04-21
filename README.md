@@ -1,4 +1,4 @@
-This is the code for our CMCL 2021 paper on "Enhancing Cognitive Models of Emotions with Representation Learning". 
+This is the code for our CMCL 2021 paper on [Enhancing Cognitive Models of Emotions with Representation Learning](https://arxiv.org/abs/2104.10117).
 
 # Requirements
 `virtualenv` is recommended to install the dependencies.
